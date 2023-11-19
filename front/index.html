@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <link rel="stylesheet" type="text/css" href="node_modules/@grapecity/spread-sheets/styles/gc.spread.sheets.excel2013white.css">
+    <link rel="stylesheet" type="text/css" href="node_modules/@grapecity/spread-sheets-designer/styles/gc.spread.sheets.designer.min.css">
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script src="system.config.js"></script>    
+
+    <title>SpreadJS简单协同</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #spread-container {
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="spread-container"></div>
+</body>
+<script>
+    System.import('./app.js');
+</script>
